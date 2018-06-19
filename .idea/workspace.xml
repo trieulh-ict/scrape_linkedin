@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c7d0e7a-4cbf-4f6b-b69c-917681fa0cda" name="Default" comment="" />
+    <list default="true" id="6c7d0e7a-4cbf-4f6b-b69c-917681fa0cda" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/database/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/scrape_multiple_profiles.py" beforeDir="false" afterPath="$PROJECT_DIR$/script/scrape_multiple_profiles.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +19,21 @@
         <entry file="file://$PROJECT_DIR$/script/scrape_multiple_profiles.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#58#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -27,7 +43,7 @@
         <entry file="file://$PROJECT_DIR$/test/Parallel.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
               <folding>
                 <element signature="e#0#78#0" expanded="true" />
               </folding>
@@ -38,67 +54,10 @@
       <file leaf-file-name="ParallelScraper.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scrape_linkedin/ParallelScraper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+            <state relative-caret-position="143">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile_test.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/Profile_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/profile.html">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="parallel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../LinkedinTagger/venv/lib/python2.7/site-packages/joblib/parallel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="472" column="8" selection-start-line="472" selection-start-column="8" selection-end-line="472" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfileScraper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrape_linkedin/ProfileScraper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="131">
-              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionScraper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrape_linkedin/ConnectionScraper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1377">
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Profile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrape_linkedin/Profile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,6 +95,8 @@
       <find>cookie</find>
       <find>scrape_in_parallel</find>
       <find>scraper_type</find>
+      <find>driver.close</find>
+      <find>close</find>
       <find>scrape</find>
     </findStrings>
   </component>
@@ -155,6 +116,7 @@
         <option value="$PROJECT_DIR$/scrapy_linkedin/scrapy_linkedin/spiders/profile_spider.py" />
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/scrape_linkedin/Profile.py" />
+        <option value="$PROJECT_DIR$/database/setup.py" />
         <option value="$PROJECT_DIR$/script/scrape_multiple_profiles.py" />
       </list>
     </option>
@@ -179,17 +141,7 @@
             <path>
               <item name="scrape" type="b2602c69:ProjectViewProjectNode" />
               <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape_linkedin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="script" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrape" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -213,7 +165,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Parallel">
+  <component name="RunManager" selected="Python.setup">
     <configuration name="Parallel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrape" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -286,16 +238,36 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrape" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/database" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/database/setup.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.scrape_multiple_profile" />
       <item itemvalue="Python.Profile" />
       <item itemvalue="Python.profile_spider" />
       <item itemvalue="Python.Parallel" />
+      <item itemvalue="Python.setup" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Parallel" />
+        <item itemvalue="Python.setup" />
         <item itemvalue="Python.scrape_multiple_profile" />
+        <item itemvalue="Python.Parallel" />
         <item itemvalue="Python.profile_spider" />
         <item itemvalue="Python.Profile" />
       </list>
@@ -327,15 +299,15 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4979424" visible="true" weight="0.2494043" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4979424" visible="true" weight="0.2494043" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32965517" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34344828" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34344828" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" weight="0.32965517" />
       <window_info id="Structure" order="2" sideWeight="0.5020576" weight="0.27323273" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.39172414" />
+      <window_info anchor="bottom" id="Terminal" weight="0.39172414" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -510,10 +482,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../LinkedinTagger/venv/lib/python2.7/site-packages/joblib/parallel.py">
+    <entry file="file://$PROJECT_DIR$/scrape_linkedin/Profile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="472" column="8" selection-start-line="472" selection-start-column="8" selection-end-line="472" selection-end-column="8" />
+        <state relative-caret-position="136">
+          <caret line="36" column="39" lean-forward="true" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape_linkedin/ConnectionScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1377">
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scrape_linkedin/ProfileScraper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -529,10 +520,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../LinkedinTagger/venv/lib/python2.7/site-packages/joblib/parallel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="472" column="8" selection-start-line="472" selection-start-column="8" selection-end-line="472" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/Parallel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="e#0#78#0" expanded="true" />
           </folding>
@@ -541,36 +539,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scrape_linkedin/ParallelScraper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="22" column="2" lean-forward="true" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+        <state relative-caret-position="143">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="e#0#42#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrape_linkedin/ProfileScraper.py">
+    <entry file="file://$PROJECT_DIR$/script/profiles.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
+        <state relative-caret-position="180">
+          <caret column="1481" selection-end-column="14893" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scrape_linkedin/ConnectionScraper.py">
+    <entry file="file://$PROJECT_DIR$/database/setup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scrape_linkedin/Profile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="42" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
+            <element signature="e#0#58#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -578,7 +567,7 @@
     <entry file="file://$PROJECT_DIR$/script/scrape_multiple_profiles.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
