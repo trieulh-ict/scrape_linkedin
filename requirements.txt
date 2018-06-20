@@ -3,3 +3,5 @@ bs4==0.0.1
 click==6.7
 selenium==3.9.0
 joblib
+SqlAlchemy==1.2.8
+pymysql==0.8.1

@@ -7,6 +7,6 @@ Base = declarative_base()
 
 
 
-engine = create_engine('sqlite:///linkedin.db')
+engine = create_engine('mysql+pymysql://root:123456@localhost')
 
 Base.metadata.create_all(engine)
