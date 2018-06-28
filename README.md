@@ -6,7 +6,9 @@ Note that this project is for study only.
 
 * Pre-conditions:
    * MySQL is installed and started.
-   * get `LI_AT` cookies and add to script file `scrape_multiple_profiles.py`
+   * Open by Pycharm or run `virtualenv` before using the project.
+   * Install required packages
+   * Get `LI_AT` cookies and add to script file `scrape_multiple_profiles.py`
    
 * Script:
    * Run `database/setup.py` to create db table
