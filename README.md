@@ -1,7 +1,7 @@
 # scrape_linkedin
 
 Below is the original instruction of how to scrape linkedin profile.
-For my repo, I create some features to add all the craping data to DB.
+For my repo, I create some features to add all the scraping data to DB.
 Note that this project is for study only.
 
 * Pre-conditions:
