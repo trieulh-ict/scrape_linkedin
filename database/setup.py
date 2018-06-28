@@ -18,6 +18,7 @@ class User(Base):
     company = Column(Text)
     summary = Column(Text)
     location = Column(Text)
+    label = Column(Text, nullable=True)
     skills = relationship('Skill', backref='user')
     accomplishments = relationship('Accomplishment', backref='user')
     educations = relationship('Education', backref='user')
@@ -75,6 +76,6 @@ class Accomplishment(Base):
     category = Column(Text, nullable=False)
 
 
-engine = create_engine('mysql+pymysql://root:123456@localhost/linkedin?charset=utf8', encoding='utf-8')
+engine = create_engine('mysql+pymysql://root:123456@localhost/linkedin?charset=utf8mb4', encoding='utf-8')
 
 Base.metadata.create_all(engine)
