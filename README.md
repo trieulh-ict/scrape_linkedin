@@ -1,5 +1,18 @@
 # scrape_linkedin
 
+Below is the original instruction of how to scrape linkedin profile.
+For my repo, I create some features to add all the craping data to DB.
+Note that this project is for study only.
+
+* Pre-conditions:
+   * MySQL is installed and started.
+   * get `LI_AT` cookies and add to script file `scrape_multiple_profiles.py`
+   
+* Script:
+   * Run `database/setup.py` to create db table
+   * Run `scrape_multiple_profiles` for scraping and store data to DB.
+
+
 ## Introduction
 
 `scrape_linkedin` is a python package to scrape all details from public LinkedIn
